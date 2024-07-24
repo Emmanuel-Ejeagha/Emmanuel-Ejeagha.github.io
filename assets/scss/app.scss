@@ -1,0 +1,22 @@
+@media screen and (max-width: 450px) {
+    .app__wrapper {
+        padding: 4rem 1rem 2rem;
+    }
+}
+
+app__wrapper {
+    flex: 1 1;
+    flex-direction: column;
+    width: 100%;
+}
+
+.app__flex {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.app {
+    background-color: var(--primary-color);
+    font-family: var(--font-base);
+}

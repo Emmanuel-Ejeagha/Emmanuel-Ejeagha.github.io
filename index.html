@@ -1,205 +1,817 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Emmanuel Ejeagha</title>
-    <link rel="stylesheet" href="css/style.css" />
-      <!-- Link to your favicon (logo) -->
-  <link rel="icon" href="images/logo.png" type="image/png">
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
+    <title>Folio Bootstrap Template - Index</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
     <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i,900,900i"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <style>
+      .button-container {
+        display: flex;
+        gap: 30px;
+        margin: 10px;
+        justify-content: center;
+        height: 30px;
+
+        /* Optional: to add space above the buttons */
+      }
+
+      .orange {
+        background-color: #ff7f3e;
+        border-color: #604cc3;
+      }
+
+      .orange:hover {
+        background-color: #604cc3;
+        border-color: #ff7f3e;
+      }
+    </style>
+
+    <!-- =======================================================
+  * Template Name: Folio
+  * Template URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
+  * Updated: Mar 17 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
   </head>
 
   <body>
-    <!-- navbar sections starts  -->
-    <header class="header">
-      <div class="logo">
-        <h1 class="logo">Portfolio.</h1>
-        <!-- <img src="images/logo-bookmark.svg" alt="logo-bookmark" /> -->
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center justify-content-between">
+        <!-- <a href="index.html" class="logo"><img src="./assets/img/brief-case.svg" height="30" alt=""><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
+        <!-- Uncomment below if you prefer to use an text logo -->
+        <h1 class="logo">
+          <a id="logo" href="index.html"> EMMANUEL</a>
+        </h1>
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="#about">About</a></li>
+            <li>
+              <a class="nav-link scrollto" href="#portfolio">Portfolio</a>
+            </li>
+            <li><a class="nav-link scrollto" href="#journal">Blog</a></li>
+            <!-- <li><a class="nav-link  scrollto" href="#contact">Contact</a></li> -->
+            <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+             <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul> 
+          </li> -->
+            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
       </div>
-
-      <nav class="navbar">
-        <a href="#home">Home</a>
-        <a href="#features">About</a>
-        <a href="#download">Skills</a>
-        <a href="#footer">Contact</a>
-        <!-- <a href="#" class="btn">Log in</a> -->
-      </nav>
-
-      <div class="fas fa-bars" id="menu-btn"></div>
     </header>
-    <!-- navbar sections starts  -->
+    <!-- End Header -->
 
-    <!-- home section stars  -->
+    <!-- ======= Hero Section ======= -->
+    <div id="hero" class="home">
+      <div class="container">
+        <div class="hero-content">
+          <h1>
+            I'm
+            <span
+              class="typed"
+              data-typed-items="Emmanuel Ejeagha, Fullstack Software Engineer, Developer, Freelancer"
+            ></span>
+          </h1>
+          <p>Fullstack Software Engineer, Developer, Freelancer</p>
 
-    <section class="home" id="home">
-      <div class="content">
-        <h1>Hi, I'm Emmanuel Ejeagha</h1>
-        <h2>Backend Developer</h2>
-        <p>
-          As a dedicated software engineer, I am enriched by completing multiple
-          courses within GIIT, Cisco Network Academy, Udemy, ALX_SE and ApTech.
-          Proficient in Javascript, Python, Django, Flask and C. <br />
-          I also possess expertise in DevOps, adeptly configuring CI/CD
-          pipelines and deploying web applications. My commitment to continuous
-          learning ensures I stay updated with industry trends, and I am eager
-          to apply my versatile skill set within a dynamic software development
-          environment.
-        </p>
-
-        <a href="#footer" class="home-btn">Contact Me</a>
-      </div>
-
-      <div class="image">
-        <img src="images/comp1.jpg" alt="illustration-hero" />
-      </div>
-    </section>
-
-    <!-- home section ends -->
-
-    <!-- features sectin starts  -->
-
-    <section class="features" id="features">
-      <div class="heading">
-        <h1>About Me</h1>
-        <p>
-          As a dedicated software engineer, I am enriched by completing multiple
-          courses within GIIT, Cisco Network Academy, Udemy, ALX_SE and ApTech.
-          Proficient in Javascript, Python, Django, Flask and C. <br />
-          I also possess expertise in DevOps, adeptly configuring CI/CD
-          pipelines and deploying web applications. My commitment to continuous
-          learning ensures I stay updated with industry trends, and I am eager
-          to apply my versatile skill set within a dynamic software development
-        </p>
-      </div>
-
-     
-    <section class="download" id="download">
-      <div class="heading">
-        <h1>My Skills</h1>
-        <p></p>
-      </div>
-
-      <div class="box-container">
-        <div class="box">
-          <img class="img" src="images/c.jpg" alt="logo-C" />
-
-          <h3 class="skill">C</h3>
-          <!-- <p>Minimum Version 63</p>
-          <a href="#" class="all-btn">install</a> -->
-        </div>
-        <div class="box">
-          <img class="img" src="images/linux.png" alt="logo-chrome" />
-
-          <h3 class="skill">Linux</h3>
-          <!-- <p>Minimum Version 63</p>
-            <a href="#" class="all-btn">install</a> -->
-        </div>
-
-        <div class="box">
-          <img class="img" src="images/python.jpg" alt="logo-chrome" />
-
-          <h3 class="skill">Python</h3>
-          <!-- <p>Minimum Version 63</p>
-            <a href="#" class="all-btn">install</a> -->
-        </div>
-
-        <div class="box">
-          <img class="img" src="images/javascript.jpg" alt="logo-JavaScript" />
-
-          <h3 class="skill">JavaScript</h3>
-          <!-- <p>Minimum Version 55</p>
-          <a href="#" class="all-btn"></a> -->
-        </div>
-
-        <div class="box">
-          <img class="img" src="images/flask.jpg" alt="logo-flask" />
-
-          <h3 class="skill">Flask</h3>
-          <!-- <p>Minimum Version 46</p>
-          <a href="#" class="all-btn">install</a> -->
-        </div>
-        <div class="box">
-          <img class="img" src="images/node js.jpg" alt="logo-node.js" />
-
-          <h3 class="skill">Node JS</h3>
-          <!-- <p>Minimum Version 63</p>
-            <a href="#" class="all-btn">install</a> -->
-        </div>
-        <div class="box">
-          <img class="img" src="images/django.jpg" alt="logo-django" />
-
-          <h3 class="skill">Django</h3>
-          <!-- <p>Minimum Version 63</p>
-            <a href="#" class="all-btn">install</a> -->
-        </div>
-        <div class="box">
-          <img
-            class="img"
-            src="images/html and css.jpg"
-            alt="logo-html & Css"
-          />
-
-          <h3 class="skill">Html & Css</h3>
+          <ul class="list-unstyled list-social">
+            <li>
+              <a href="#"><i class="bi bi-facebook"></i></a>
+            </li>
+            <li>
+              <a href="https://x.com/Emma_Ejeagha"
+                ><i class="bi bi-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/Emmanuel-Ejeagha"
+                ><i class="bi bi-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/emma-ejeagha/"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </li>
+          </ul>
         </div>
       </div>
-    </section>
+    </div>
+    <!-- End Hero -->
 
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <div id="about" class="paddsection">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-lg-4">
+              <div class="div-img-bg">
+                <div class="about-img">
+                  <img
+                    src="assets/img/emma.JPG"
+                    class="img-responsive"
+                    alt="me"
+                  />
+                </div>
+              </div>
+            </div>
 
-    <!-- footer section starts  -->
-
-    <section class="footer" id="footer">
-      <div class="box-container">
-        <div class="box">
-          <h3>quick links</h3>
-          <a href="#"><i class="fas fa-chevron-right"></i>home</a>
-          <a href="#"><i class="fas fa-chevron-right"></i>about</a>
-          <a href="#"><i class="fas fa-chevron-right"></i>download</a>
-          <a href="#"><i class="fas fa-chevron-right"></i>contact</a>
+            <div class="col-lg-7">
+              <div class="about-descr">
+                <p class="p-heading">
+                  As a dedicated Fullstack Software Engineer, I am enriched by
+                  completing multiple courses within GIIT, Cisco Network
+                  Academy, Udemy, ALX_SE and ApTech. Proficient in Javascript,
+                  Python, Django, Flask and C. <br />
+                </p>
+                <p class="separator">
+                  I also possess expertise in DevOpsMy commitment to continuous
+                  learning ensures I stay updated with industry trends, and I am
+                  eager to apply my versatile skill set within a dynamic
+                  software development environment.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <!-- End About Section -->
 
-
-        <div class="box">
-          <h3>contact info</h3>
-          <a href="tel:+2348090993144"><i class="fas fa-phone"></i>+2348090993144</a>
-          <a href="mailto:emma.ejeagha@gmail.com">
-            <i class="fas fa-envelope"></i>emma.ejeagha@gmail.com</a
+      <!-- ======= Services Section ======= -->
+      <div id="services">
+        <div class="container">
+          <div
+            class="services-slider swiper"
+            data-aos="fade-up"
+            data-aos-delay="100"
           >
-          <a href="#"><i class="fas fa-map-marker-alt"></i>Lagos, Nigeria</a>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="services-block">
+                  <i class="bi bi-briefcase"></i>
+                  <span>FRONTEND DEVELOPER</span>
+                  <p class="separator">
+                    Creating dynamic and responsive web applications with a
+                    focus on performance, accessibility, and user experience.
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="services-block">
+                  <i class="bi bi-briefcase"></i>
+                  <span>BACKEND DEVELOPER</span>
+                  <p class="separator">
+                    Specializing in building robust and scalable server-side
+                    applications, ensuring seamless integration and performance.
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="services-block">
+                  <i class="bi bi-briefcase"></i>
+                  <span>WEB DESIGN</span>
+                  <p class="separator">
+                    Crafting visually stunning and user-friendly web interfaces
+                    to enhance user experience and engagement.
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="services-block">
+                  <i class="bi bi-briefcase"></i>
+                  <span>FULLSTACK SOFWARE ENGINEER</span>
+                  <p class="separator">
+                    Expert in both front-end and back-end development,
+                    delivering comprehensive and efficient solutions for complex
+                    projects.
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <!-- <div class="swiper-slide">
+              <div class="services-block">
+                <i class="bi bi-brightness-high"></i>
+                <span>Analytics</span>
+                <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+              </div>
+            </div> -->
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="services-block">
+                  <i class="bi bi-calendar4-week"></i>
+                  <span>ADMINISTRATOR</span>
+                  <p class="separator">
+                    Providing effective and efficient administrative support to
+                    ensure smooth operations and successful project execution.
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+      <!-- End Services Section -->
+
+      <!-- ======= Portfolio Section ======= -->
+      <div id="portfolio" class="paddsection">
+        <div class="container">
+          <div class="section-title text-center">
+            <h2 class="head-text">
+              My Creative <span>Portfolio</span> Section
+            </h2>
+          </div>
         </div>
 
-        <div class="box">
-          <h3>follow us</h3>
-          <a href="https://www.facebook.com/ejeagha.emmanuel" target="_blank"
-            ><i class="fab fa-facebook-f"></i>facebook</a
-          >
-          <a href="https://github.com/Emmanuel-Ejeagha" target="_blank"
-            ><i class="fab fa-github"></i>github</a
-          >
-          <a href="https://twitter.com/Emma_Ejeagha" target="_blank"
-            ><i class="fab fa-twitter"></i>twitter</a
-          >
-          <a href="https://wa.me/2348168819332"><i class="fab fa-whatsapp"></i> WhatsApp</a>
-          <a href="https://www.linkedin.com/in/emma-ejeagha/" target="_blank"
-            ><i class="fab fa-linkedin"></i>linkedin</a>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="portfolio-flters">
+                <li data-filter="*" class="filter-active">All</li>
+                <li data-filter=".filter-app">E-commerce</li>
+                <!-- <li data-filter=".filter-card">Card</li> -->
+                <li data-filter=".filter-web">Web</li>
+                <li data-filter=".filter-card">Game</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row portfolio-container">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <img
+                src="assets/img/portfolio/portfolio-1.jpg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>App 1</h4>
+                <p>App</p>
+                <a
+                  href="assets/img/portfolio/portfolio-1.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link"
+                  title="App 1"
+                  ><i class="bx bx-plus"></i
+                ></a>
+                <a
+                  href="portfolio-details.html"
+                  class="details-link"
+                  title="More Details"
+                  ><i class="bx bx-link"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <img
+                src="assets/img/portfolio/portfolio-2.jpg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <a
+                  href="assets/img/portfolio/portfolio-2.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link"
+                  title="Web 3"
+                  ><i class="bx bx-plus"></i
+                ></a>
+                <a
+                  href="portfolio-details.html"
+                  class="details-link"
+                  title="More Details"
+                  ><i class="bx bx-link"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <img
+                src="assets/img/portfolio/portfolio-3.jpg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>App 2</h4>
+                <p>App</p>
+                <a
+                  href="assets/img/portfolio/portfolio-3.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link"
+                  title="App 2"
+                  ><i class="bx bx-plus"></i
+                ></a>
+                <a
+                  href="portfolio-details.html"
+                  class="details-link"
+                  title="More Details"
+                  ><i class="bx bx-link"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <img
+                src="assets/img/portfolio/portfolio-4.jpg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>Card 2</h4>
+                <p>Card</p>
+                <a
+                  href="assets/img/portfolio/portfolio-4.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link"
+                  title="Card 2"
+                  ><i class="bx bx-plus"></i
+                ></a>
+                <a
+                  href="portfolio-details.html"
+                  class="details-link"
+                  title="More Details"
+                  ><i class="bx bx-link"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <img
+                src="assets/img/portfolio/portfolio-5.jpg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>Web 2</h4>
+                <p>Web</p>
+                <a
+                  href="assets/img/portfolio/portfolio-5.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link"
+                  title="Web 2"
+                  ><i class="bx bx-plus"></i
+                ></a>
+                <a
+                  href="portfolio-details.html"
+                  class="details-link"
+                  title="More Details"
+                  ><i class="bx bx-link"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <img
+                src="assets/img/portfolio/portfolio-6.jpg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>App 3</h4>
+                <p>App</p>
+                <a
+                  href="assets/img/portfolio/portfolio-6.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link"
+                  title="App 3"
+                  ><i class="bx bx-plus"></i
+                ></a>
+                <a
+                  href="portfolio-details.html"
+                  class="details-link"
+                  title="More Details"
+                  ><i class="bx bx-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Portfolio Section -->
+
+      <!-- ===Stack Section ==== -->
+      <div class="paddsection d-flex justify-content-center" id="work">
+        <div class="container">
+          <div class="row">
+            <div class="section-title text-center">
+              <h2 class="head-text">
+                My Creative <span>Portfolio</span> Section
+              </h2>
+            </div>
+            <div class="card m-2" style="width: 18rem">
+              <img
+                src="./assets/img/portfolio/portfolio-1.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body m-2">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <div class="button-container">
+                  <a href="#" class="card-link"
+                    ><img src="./assets/img/github.svg" alt="" width="30"
+                  /></a>
+                  <a href="#" class="card-link"
+                    ><img src="./assets/img/eye.svg" alt="" height="30"
+                  /></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card col-1 m-3" style="width: 18rem">
+              <img
+                src="./assets/img/portfolio/portfolio-1.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <div class="button-container">
+                  <a href="#" class="card-link"
+                    ><img src="./assets/img/github.svg" alt="" width="30"
+                  /></a>
+                  <a href="#" class="card-link"
+                    ><img src="./assets/img/eye.svg" alt="" height="30"
+                  /></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card col-1 m-3" style="width: 18rem">
+              <img
+                src="./assets/img/portfolio/portfolio-1.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <div class="button-container">
+                  <a href="#" class="card-link"
+                    ><img src="./assets/img/github.svg" alt="" width="30"
+                  /></a>
+                  <a href="#" class="card-link"
+                    ><img src="./assets/img/eye.svg" alt="" height="30"
+                  /></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card col-1 m-3" style="width: 18rem">
+              <img
+                src="./assets/img/portfolio/portfolio-1.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <div class="button-container">
+                  <a href="#" class="card-link"
+                    ><img src="./assets/img/github.svg" alt="" width="30"
+                  /></a>
+                  <a href="#" class="card-link"
+                    ><img src="./assets/img/eye.svg" alt="" height="30"
+                  /></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card m-3" style="width: 18rem">
+              <img
+                src="./assets/img/portfolio/portfolio-1.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <div class="button-container">
+                  <a href="#" class="card-link"
+                    ><img src="./assets/img/github.svg" alt="" width="30"
+                  /></a>
+                  <a href="#" class="card-link"
+                    ><img src="./assets/img/eye.svg" alt="" height="30"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="credit">
-        created by
-        <a href="#" target="_blank"
-          ><span>Emmanuel Ejeagha</span> | all rights reserved</a
-        >
+      <!-- ======= Journal Section ======= -->
+      <div id="journal" class="text-left paddsection">
+        <div class="container">
+          <div class="section-title text-center">
+            <h2>journal</h2>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="journal-block">
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <div class="journal-info">
+                  <a href="blog-single.html"
+                    ><img
+                      src="assets/img/blog-post-1.jpg"
+                      class="img-responsive"
+                      alt="img"
+                  /></a>
+
+                  <div class="journal-txt">
+                    <h4>
+                      <a href="blog-single.html"
+                        >SO LETS MAKE THE MOST IS BEAUTIFUL</a
+                      >
+                    </h4>
+                    <p class="separator">
+                      To an English person, it will seem like simplified English
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <div class="journal-info">
+                  <a href="blog-single.html"
+                    ><img
+                      src="assets/img/blog-post-2.jpg"
+                      class="img-responsive"
+                      alt="img"
+                  /></a>
+
+                  <div class="journal-txt">
+                    <h4>
+                      <a href="blog-single.html"
+                        >WE'RE GONA MAKE DREAMS COMES</a
+                      >
+                    </h4>
+                    <p class="separator">
+                      To an English person, it will seem like simplified English
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <div class="journal-info">
+                  <a href="blog-single.html"
+                    ><img
+                      src="assets/img/blog-post-3.jpg"
+                      class="img-responsive"
+                      alt="img"
+                  /></a>
+
+                  <div class="journal-txt">
+                    <h4>
+                      <a href="blog-single.html"
+                        >NEW LIFE CIVILIZATIONS TO BOLDLY</a
+                      >
+                    </h4>
+                    <p class="separator">
+                      To an English person, it will seem like simplified English
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </section>
+      <!-- End Journal Section -->
 
-    <!-- footer section ends -->
+      <!-- ======= Contact Section ======= -->
+      <div id="contact" class="paddsection">
+        <div class="container">
+          <div class="contact-block1">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="contact-contact">
+                  <h2 class="mb-30">GET IN TOUCH</h2>
 
-    <script src="js/main.js"></script>
+                  <ul class="contact-details">
+                    <li><span>23 Main, Street</span></li>
+                    <li><span>New York, United States</span></li>
+                    <li><span>+88 01912704287</span></li>
+                    <li><span>example@example.com</span></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <form
+                  action="forms/contact.php"
+                  method="post"
+                  role="form"
+                  class="php-email-form"
+                >
+                  <div class="row gy-3">
+                    <div class="col-lg-6">
+                      <div class="form-group contact-block1">
+                        <input
+                          type="text"
+                          name="name"
+                          class="form-control"
+                          id="name"
+                          placeholder="Your Name"
+                          required
+                        />
+                      </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                      <div class="form-group">
+                        <input
+                          type="email"
+                          class="form-control"
+                          name="email"
+                          id="email"
+                          placeholder="Your Email"
+                          required
+                        />
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          class="form-control"
+                          name="subject"
+                          id="subject"
+                          placeholder="Subject"
+                          required
+                        />
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                      <div class="form-group">
+                        <textarea
+                          class="form-control"
+                          name="message"
+                          placeholder="Message"
+                          required
+                        ></textarea>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                      <div class="loading">Loading</div>
+                      <div class="error-message"></div>
+                      <div class="sent-message">
+                        Your message has been sent. Thank you!
+                      </div>
+                    </div>
+
+                    <div class="mt-0">
+                      <input
+                        type="submit"
+                        class="btn btn-defeault btn-send"
+                        value="Send message"
+                      />
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <div id="footer" class="text-center">
+      <div class="container">
+        <div class="socials-media text-center">
+          <ul class="list-unstyled">
+            <li>
+              <a href="#"><i class="bi bi-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="bi bi-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <p>&copy; Copyrights Folio. All rights reserved.</p>
+
+        <div class="credits">
+          <!--
+        All the links in the footer should remain intact.
+        You can delete the links only if you purchased the pro version.
+        Licensing information: https://bootstrapmade.com/license/
+        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Folio
+      -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </div>
+    <!-- End Footer -->
+
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
